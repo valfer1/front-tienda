@@ -354,22 +354,14 @@ img {
 .footer {
     height: 58px;
     background: #323232;
-    text-align: right;
     margin-top:30px;
+    color: #fff;
 }
 
-.footer-logo {
-    width:80px;
-    height: 30px;
-    margin-top:20px;
+.footer-p {
+    padding-top: 20px;
 }
 
-.vtex {
-    background-position: -195px -20px;
-}
-.fizz {
-    background-position: -190px -48px;
-}
 
 @media (max-width: 768px){
     .top-nav-wrapper {

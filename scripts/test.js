@@ -64,11 +64,11 @@ document.addEventListener("DOMContentLoaded", function(){
         prodThumb.appendChild(prodBrand);
         prodThumb.appendChild(prodCat);
         
-        prodTitle.innerHTML = product.title;
-        prodPrice.innerHTML = "$ " + product.price;
-        prodSale.innerHTML = "Oferta";
+        prodTitle.textContent = product.title;
+        prodPrice.textContent = `$${product.price}`;
+        prodSale.textContent = "Oferta";
         prodImg.src = product.image;
-        prodCat.innerHTML = product.category;
+        prodCat.textContent = product.category;
         
         document.getElementById("products-list").appendChild(prodThumb);
     });
